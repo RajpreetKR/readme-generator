@@ -21,6 +21,11 @@ const questions = [
         message: "What does the user for your project to work?:",
     },
     {
+        type: "input",
+        name: "usage",
+        message: "Please provide instructions for use:",
+    },
+    {
         type: "checkbox",
         name: "license",
         message: "Please chose your desired license:",
@@ -34,7 +39,7 @@ const questions = [
     {
         type: "input",
         name: "tests",
-        message: "What does the user need in order to test your project?",
+        message: "Write anything the user can do to test your project:",
     },
     {
         type: "input",

@@ -3,13 +3,13 @@ function generateMarkdown(data) {
   return `# ${data.title}
 
   ## Table of Contents
-  * [Description] (#description)
-  * [Installation] (#installation)
-  * [Usage] (#usage)
-  * [License] (#license)
-  * [Contributors] (#contributors)
-  * [Tests] (#tests)
-  * [Questions] (#questions)
+  * [Description](#Description)
+  * [Installation](#Installation)
+  * [Usage](#Usage)
+  * [License](#License)
+  * [Contributors](#Contributors)
+  * [Tests](#Tests)
+  * [Questions](#Questions)
 
   ## Description:
   ${data.description}
@@ -17,8 +17,11 @@ function generateMarkdown(data) {
   ## Installation:
   ${data.installation}
 
+  ## Usage:
+  ${data.usage}
+
   ## License:
-  * This project is licensed under the ${data.license} license.
+  This project is licensed under the ${data.license} license.
 
   ## Contributors:
   ${data.contributors}

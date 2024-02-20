@@ -1,13 +1,13 @@
-# Test
+# test
 
   ## Table of Contents
-  * [Description] (#description)
-  * [Installation] (#installation)
-  * [Usage] (#usage)
-  * [License] (#license)
-  * [Contributors] (#contributors)
-  * [Tests] (#tests)
-  * [Questions] (#questions)
+  * [Description](#Description)
+  * [Installation](#Installation)
+  * [Usage](#Usage)
+  * [License](#License)
+  * [Contributors](#Contributors)
+  * [Tests](#Tests)
+  * [Questions](#Questions)
 
   ## Description:
   testing
@@ -15,8 +15,11 @@
   ## Installation:
   n/a
 
+  ## Usage:
+  n/a
+
   ## License:
-  MIT
+  This project is licensed under the MIT license.
 
   ## Contributors:
   n/a
@@ -26,5 +29,5 @@
 
   ## Questions:
   * Please contact me on any of the following if you have any questions:
-  * Email - nottellingyou@gmail.com
-  * Github - https://github.com/rajpreetkr
+  * Email - totallyreal@gmail.com
+  * Github - https://github.com/rajpreetrk
