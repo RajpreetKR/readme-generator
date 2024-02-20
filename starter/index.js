@@ -18,7 +18,7 @@ const questions = [
     {
         type: "input",
         name: "installation",
-        message: "What does the user need to do to install your project?:",
+        message: "What does the user for your project to work?:",
     },
     {
         type: "input",
@@ -51,12 +51,12 @@ function writeToFile(fileName, data) {
     // using the FS library we want to WRITE the collected DATA (from inquirer) to a FILE (README.md)
 
     // OUTPUTS --> we would want to call our gerneratemarkdown() function 
-    //           --> pass the USER collected data --> generateMarkdown(answers)
+    //         --> pass the USER collected data --> generateMarkdown(answers)
 
-    var readmeData = generateMarkdown(data);
+    let readmeData = generateMarkdown(data);
     console.log("Genereated Content: ", readmeData);
 
-   // OUTPUT --> WRITING TEH MARKDOWN TO the File System
+   // OUTPUT --> WRITING THE MARKDOWN TO the File System
     fs.writeFile('README.md', readmeData, function (err) {
         if (err) throw err;
         console.log('Saved!');
@@ -65,24 +65,16 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
-    // lets explore hte INQUIERE LIB
-    console.log("I am code BEFORE the ASYNC propmt method");
     inquirer.prompt(    // the prompt async method returns a PROMISE
         questions
     )
     .then(function(answers) {
-       // console.log("Data: ", answers);
-       // console.log("Repo Title: ", answers.title);
-        // Where does this newxt function call belong?
-        console.log("I am code INSIDE the ASYNC propmt method");
+        console.log("Creating README.md file......");
         writeToFile('READEME.md', answers)
     })
     .catch(function(error) {
         console.log(error);
     })
-    
-    // Where does this newxt function call belong?
-    console.log("I am code AFTER the ASYNC propmt method");
 }
 
 // function call to initialize program
