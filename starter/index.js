@@ -21,9 +21,10 @@ const questions = [
         message: "What does the user for your project to work?:",
     },
     {
-        type: "input",
+        type: "checkbox",
         name: "license",
-        message: "Please enter your desired license:",
+        message: "Please chose your desired license:",
+        choices: ["MIT", "APACHE2.0", "Boost1.0", "MPL2.0", "BS02", "BS03", "none"],
     },
     {
         type: "input",
@@ -37,9 +38,14 @@ const questions = [
     },
     {
         type: "input",
-        name: "questions",
-        message: "Please enter commonly asked questions regarding your project:",
-    }
+        name: "username",
+        message: "Please enter your Github username:",
+    },
+    {
+        type: "input",
+        name: "email",
+        message: "Please enter your email address:",
+    },
 ];
 
 // function to write README file

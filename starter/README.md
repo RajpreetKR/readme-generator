@@ -1,22 +1,22 @@
-# test
+# Test
 
   ## Table of Contents
-  - [Description] (#description)
-  - [Installation] (#installation)
-  - [Usage] (#usage)
-  - [License] (#license)
-  - [Contributors] (#contributors)
-  - [tests] (#tests)
-  - [questions] (#questions)
+  * [Description] (#description)
+  * [Installation] (#installation)
+  * [Usage] (#usage)
+  * [License] (#license)
+  * [Contributors] (#contributors)
+  * [Tests] (#tests)
+  * [Questions] (#questions)
 
   ## Description:
-  testing generator
+  testing
 
   ## Installation:
-  /a
+  n/a
 
   ## License:
-  none
+  MIT
 
   ## Contributors:
   n/a
@@ -25,4 +25,6 @@
   n/a
 
   ## Questions:
-  n/a
+  * Please contact me on any of the following if you have any questions:
+  * Email - nottellingyou@gmail.com
+  * Github - https://github.com/rajpreetkr
